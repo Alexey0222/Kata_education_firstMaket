@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <title>Первый макет_Терентьев Алексей</title>
+</head>
+<body class="body__content bodyContainer">
+    <header class="header">
+      <div class="header__container container">
+        <div class="header__buttons-wrapper header__buttons-wrapper--left">
+          <button class="header__button" id="burger-open-button">
+            <img class="header__image" src="./img/burger.svg" alt="icon menu">
+          </button>
+          <div class="header__decor-line tablet"></div>
+          <button class="header__button-logo">
+            <img class="header__logo" src="./img/Group.svg" alt="">
+          </button>
+        </div>
+        <div class="header__buttons-wrapper header__buttons-wrapper--right">
+          <button class="header__button tablet" id="phone-menu__button-open-modal">
+            <img class="header__image" src="./img/phone.svg" alt="">
+          </button>
+          <button class="header__button tablet" id="feedback-menu__button-open-modal">
+            <img class="header__image" src="./img/chat.svg" alt="">
+          </button>
+          <button class="header__button tablet">
+            <img class="header__image" src="./img/profile.svg" alt="">
+          </button>
+          <div class="header__decor-line"></div>
+          <div class="header__buttons-wrapper header__buttons-wrapper--absolute">
+            <div class="header__button-wrapper">
+              <span class="header__button-description desktop">Оставить заявку</span>
+              <button class="header__button">
+                <img class="header__image" src="./img/repair.svg" alt="">
+              </button>
+            </div>
+            <div class="header__button-wrapper">
+              <span class="header__button-description desktop">Статус ремонта</span>
+              <button class="header__button">
+                <img class="header__image" src="./img/checkstatus.svg" alt="">
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+  <div class="body__content-wrapper">
+    <main class="main">
+      <div class="main__title-wrapper container">
+        <h1 class="main__title">Услуги и сервисы</h1>
+      </div>
+      <section class="service container">
+        <div class="service__position-wrapper">
+          <ul class="service__position-items">
+            <li class="service__position-item">
+              <a href="#brands-repairs" class="service__position-item-link">
+                Ремонтируемые устройства
+              </a>
+            </li>
+            <li class="service__position-item">
+              <a href="#types-repairs" class="service__position-item-link">
+                Дополнительные услуги
+              </a>
+            </li>
+            <li class="service__position-item">
+              <a href="#price" class="service__position-item-link">
+                Цены на услуги
+              </a>
+            </li>
+            <li class="service__position-item">
+              <a href="#" class="service__position-item-link">
+                Адреса сервисных центров
+              </a>
+            </li>
+            <li class="service__position-item">
+              <a href="#" class="service__position-item-link">
+                Специальные цены
+              </a>
+            </li>
+            <li class="service__position-item">
+              <a href="#" class="service__position-item-link"> Отзывы </a>
+            </li>
+          </ul>
+        </div>
+        <div class="service__feedback-description">
+          <div class="service__feedback-description-wrapper">
+            <p class="service__feedback-description-text">
+              Мы являемся авторизованным сервисным центром по ремонту техники
+              Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с
+              официальной гарантией производителя.
+              <br>
+              <br>
+              Мы успешно работаем с 1992 года и заслужили репутацию надежного
+              партнера, что подтверждает большое количество постоянных
+              клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям
+              и, в свою очередь, советуют нас родным и близким.
+              <br>
+            </p>
+            <div class="service__feedback-description-button-wrapper">
+              <button type="button" class="service__feedback-description-button close" id="service-feedback-button">
+                <img class="service__feedback-description-button-icon" src="./img/expand.svg" alt="">
+                <p class="service__feedback-description-button-text">Читать далее</p>
+              </button>
+            </div>
+          </div>
+          <div class="service__feedback-image-wrapper">
+            <img class="service__feedback-image" src="./img/_MG_3223.jpg" alt="company image office">
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
